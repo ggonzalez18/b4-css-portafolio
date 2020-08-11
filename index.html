@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="autor" content="Gabriela Gonzalez 0048">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Imprima|Lobster&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="assets/img/impulso_icon.png" />
+    <title>Gaby Gonzalez</title>
+</head>
+
+<body>
+    <!-- empieza el contenedor de mi nav -->
+    <section class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark color_fondo fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo_blanco.png" width="150" height=""
+                        class="img-responsive" alt="Logo
+                del sitio web"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item "><a class="nav-link" href="#inicio">Sobre mi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#trabajos">Trabajos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- comienza mi displey fixed de contacto -->
+    <section>
+        <div class="white-bar hidden-xs hidden-sm">
+            <div class="box-link"><a
+                    href="https://api.whatsapp.com/send?phone=56991346183&text=Hola%20Gabriela%2C%20me%20gustaria%20recibir%20informacion%20sobre..."
+                    target="_blank"><i class="fab fa-whatsapp fa-2x mb-2"></i></a></div>
+            <div class="box-link"><a href="mailto:gabytasmile7@gmail.com" target="_blank" rel="noopener"><i
+                        class="far fa-envelope fa-2x mb-2"></i></a></div>
+            <div class="box-link"><a href="https://www.linkedin.com/in/gabriela-gonzalez-design" target="_blank"><i
+                        class="fab fa-linkedin-in fa-2x mb-2"></i></a></div>
+            <div class="box-link"><a href="https://www.instagram.com/gabytasmilee/?hl=es" target="_blank"><i
+                        class="fab fa-instagram fa-2x"></i></a></div>
+        </div>
+    </section>
+    <!-- contenedor de mi foto -->
+    <section class="container container_slide" id="inicio">
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" src="assets/img/escritorio1.jpg" alt="escriorio">
+                        <div class="mask"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h1 class="h3-responsive title_slide_one">Gabriela González<h1>
+                                <h3>DISEÑADOR GRÁFICO FRONT END</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="assets/img/principal.jpg" alt="img autor">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive title_slide_two">Gabriela González</h3>
+                        <h4 class="text-dark">Soluciones Gráficas</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="assets/img/luces.jpg" alt="luces">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive title_slide_three">Gabriela González</h3>
+                        <h4>Soluciones Web</h4>
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+    </section>
+    <!-- contenedor de mi parrafo descriptivo -->
+    <section class="container">
+        <div class="row">
+            <div class="col col-sm-12 col-md-12 col-lg-12">
+                <div class="parrafo_descriptivo">"El diseño debe seducir, educar y quizás lo más importante,
+                    provocar
+                    una respuesta emocional"</div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <span class="text_parrafo">El diseño es la expresión artística en todo su esplendor para
+                    representar un negocio, una empresa, una entidad o a una
+                    persona natural. He aprendido que sin el diseño no existirían estrategias empresariales y la
+                    competencia en el mercado no existiría, la base fundamental para que este círculo de vida
+                    funcione es el diseño, es lo que amo y lo que me gusta
+                    hacer.</span>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <span class="text_parrafo">La constante búsqueda de conocimiento y crecimiento personal me
+                    ha
+                    llevado a tomar de la mano a la tecnología, es por esto que complementar mi pasión con la
+                    realización web es lo que me tiene en el punto de equilibrio perfecto, haciendo posible sitios
+                    armónicos, responsivos y funcionales, necesarios para la demanda actual</span></div>
+        </div>
+    </section>
+    <!-- contenedor de mi experiencia y habilidades -->
+    <section class="container caja_experiencia" id="experiencia">
+        <div class="text_experiencia mb-3">Experiencia Laboral</div>
+        <div class="row">
+            <div class="col col-sm-12 col-md-12 col-lg-6">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-4">
+                            <img src="assets/img/empresa1.png" class="card-img mt-3 ml-3" alt="...">
+                            <p class="card-text"><small class="text_año"> 2014 - 2017</small></p>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">RUTA ID S.A</h5>
+                                <p class="card-text text-justify">Empresa enfocada al bienestar, salud, deporte y
+                                    seguridad de
+                                    las personas. Mis labores estuvieron enfocadas a la publicidad
+                                    online (mailing, administración sitio web, diseño de banners) Comunnity manager
+                                    (administración y publicidad de redes
+                                    como instagram, facebook y twitter) etc...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="assets/img/empresa2.jpg" class="card-img" alt="...">
+                            <p class="card-text"><small class="text_año">2017-2019</small>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">IMPRIMIR.CL LTDA.</h5>
+                                <p class="card-text text-justify">Como Diseñador me dedique a rehacer el Logotipo de
+                                    la
+                                    empresa, y su
+                                    papelería. Trabajar en impresión de folleteria,
+                                    afiches, flyers etc.. A cargo de la maquina RICOH Pro- C571, ademas de estar
+                                    encargada del departamento de Tesis y
+                                    empastados con la maquina UniFoilPrinter y FoilExpress.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- contenedor de trabajos -->
+    <section class="container-fluid color_fondo_trabajos pt-3 pb-3" id="trabajos">
+        <div class="container text-center">
+            <div class="text_trabajos mb-4">Trabajos Realizados</div>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card mb-5">
+                            <img class="card-img-top" src="assets/img/coffe.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a
+                                        href="https://github.com/ggonzalez18/Portafolio-FrontEnd/tree/proyectos1/proyectos/coffe">
+                                        Meet & Coffe</h5></a>
+                                <p class="card-text">Proyecto donde se iniciaron los conocimientos de html para
+                                    conocer
+                                    estructuras, finalizando con css para darle los estilos indicados.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="  card mb-5">
+                            <img class="card-img-top" src="assets/img/suricata.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a
+                                        href="https://github.com/ggonzalez18/Portafolio-FrontEnd/tree/proyectos1/proyectos/suricata">Suricata
+                                </h5></a>
+                                <p class="card-text">Proyecto donde se consolidan conocimientos de css, se reafirman
+                                    conocimientos de html y se inicia etapa de bootstrap 4.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-5">
+                            <img class="card-img-top" src="assets/img/ricomida.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a
+                                        href="https://github.com/ggonzalez18/Portafolio-FrontEnd/tree/proyectos1/proyectos/Ricomida"
+                                        target="_blank">Ricomida</a></h5>
+                                <p class="card-text">Proyecto web se debe visualizar bien en todas las vistas de
+                                    pantalla. Se utilizan herramientas de @media query y se refuerza lo anterior.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="card mb-5">
+                        <img class="card-img-top" src="assets/img/cupon.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> <a
+                                    href="https://github.com/ggonzalez18/Portafolio-FrontEnd/tree/proyectos1/proyectos/cuppon">
+                                    Cuppon</h5></a>
+                            <p class="card-text">Se trabajo en el manejo de la grilla por card para visualizacion
+                                responsiva en las distintas pantallas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="card mb-5">
+                        <img class="card-img-top" src="assets/img/iguana.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"><a
+                                    href="https://github.com/ggonzalez18/Portafolio-FrontEnd/tree/proyectos1/proyectos/Iguana"
+                                    target="_blank">
+                                    Iguana Page</h5></a>
+                            <p class="card-text">Segundo trabajo, la idea era conseguir mas habilidades en html con
+                                implementación de css.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- aqui estan mis habilidades -->
+    <section class="container" id="contacto">
+        <div class="text_experiencia">Softwares Skills</div>
+        <div class="container">
+            <div class="icon">
+                <img src="assets/img/ai.jpg" alt="illustrator" class="mr-3 mt-2" style="cursor: pointer"
+                    data-toggle="tooltip" data-placement="bottom" title="Nivel Experto">
+                <img src="assets/img/id.jpg" alt="indesing" class="mr-3 mt-2" style="cursor: pointer"
+                    data-toggle="tooltip" data-placement="bottom" title="Nivel Experto">
+                <img src="assets/img/ps.jpg" alt="photoshop" class="mr-3 mt-2" style="cursor: pointer"
+                    data-toggle="tooltip" data-placement="bottom" title="Nivel Experto">
+                <img src="assets/img/pr.jpg" alt="premiere" class="mr-3 mt-2" style="cursor: pointer"
+                    data-toggle="tooltip" data-placement="bottom" title="Nivel Avanzado">
+                <img src="assets/img/dw.jpg" alt="" class="mr-3 mt-2" style="cursor: pointer" data-toggle="tooltip"
+                    data-placement="bottom" title="Nivel Experto">
+                <img src="assets/img/ofice.png" alt="ofice" class="mr-3 mt-2" style="cursor: pointer"
+                    data-toggle="tooltip" data-placement="bottom" title="Nivel Avanzado">
+                <img src="assets/img/microsoft.jpg" alt="microsof" class="mr-3 mt-2" style="cursor: pointer"
+                    data-toggle="tooltip" data-placement="bottom" title="Nivel Avanzado">
+                <img src="assets/img/visual.png" alt="visual" class="mr-3 mt-2" style="cursor: pointer"
+                    data-toggle="tooltip" data-placement="bottom" title="Nivel Medio">
+                <img src="assets/img/html.png" alt="html5" class="mr-3 mt-2" style="cursor: pointer"
+                    data-toggle="tooltip" data-placement="bottom" title="Nivel Medio">
+                <img src="assets/img/css.png" alt="css" class="mr-3 mt-2" style="cursor: pointer" data-toggle="tooltip"
+                    data-placement="bottom" title="Nivel Medio">
+            </div>
+        </div>
+    </section>
+    <!-- boton cotizar -->
+    <section class="container text-center mb-4">
+        <div class="text_experiencia mt-5">Contacto</div>
+        <div class="parrafo_descriptivo mt-5 mb-3">¿Quieres Cotizar algún trabajo?</div>
+        <div><a href="https://gabytasmile7.typeform.com/to/ILkqfV" target="_blank" class="btn boton">Cotiza
+                Ahora</button></a></div>
+    </section>
+    <!-- contenedor del footer + logo -->
+    <section class="container-fluid color_fondo">
+        <div class="container p-3">
+            <a href="index.html"><img src="assets/img/logo_blanco.png" class=" mx-auto d-block" width="200" height=""
+                    alt="logo solo"></a>
+        </div>
+
+        </div>
+    </section>
+    <!-- no tocar -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+
+</body>
+
+</html>

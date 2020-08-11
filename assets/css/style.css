@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Imprima', sans-serif;
+    padding-top: 90px;
+}
+.color_fondo{
+    background-color: rgb(2, 152, 163); 
+}
+
+.color_fondo_trabajos{
+    background-color:rgb(119, 118, 119);
+}
+.title_slide_one{
+color:white;
+font-family: 'Lobster', cursive;
+font-size: 70px;
+}
+.card-title a{
+    color: black;
+}
+.title_slide_two{
+color: rgb(39, 37, 37);
+font-family: 'Lobster', cursive;
+font-size: 30px;
+}
+.title_slide_three{
+color:white;
+font-family: 'Lobster', cursive;
+font-size: 50px;
+}
+.parrafo_descriptivo{
+margin-top: 30px;
+font-size: 25px;
+font-weight: 700;
+text-align: center;
+}
+.text_parrafo{
+    float: left;
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.text_experiencia{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.text_año{
+    font-size: 18px;
+    color: gray;
+    margin-left: 40px;
+}
+.icon{
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 15px;
+}
+.text_trabajos{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.card-title{
+    font-weight: 800;
+}
+.boton{
+    width: 300px;
+    height: 50px;
+    background-color:rgb(221, 77, 109);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.boton:hover{
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    color:rgb(221, 77, 109);
+    border-color: rgb(221, 77, 109);
+    font-size: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.rrss{
+    float: right
+}
+
+/* .boton_form{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(221, 77, 109);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    float: right;
+    cursor: pointer;
+} */
+
+form .error {
+  color: black;}
+
+.far, .fab, .fas{
+    color:rgb(221, 77, 109);
+    float: left;
+    text-decoration: none;
+}
+.text_menu{
+    color: white;
+}
+.far:hover, .fab:hover, .fas:hover{
+    color: rgb(151, 11, 58); 
+    float: left;
+    text-decoration: none;
+}
+
+.white-bar {
+    z-index: 1;
+    position: fixed;
+    background-color: #fff;
+    width: 50px;
+    height: auto;
+    top: 380px;
+    padding-top: 5px;
+    padding: 5px 15px 5px 10px;
+    box-shadow: 3px 3px 15px #222;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.formulario{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    border-radius: 20px
+}
+
+@media all and (max-width: 758px) {
+    .carousel-caption { display:none; }
+}
+
+@media (max-width: 758px){
+    .caja_experiencia img{
+        width: 200px;
+    }
+    .caja_experiencia {
+        text-align: center;
+    }
+}
